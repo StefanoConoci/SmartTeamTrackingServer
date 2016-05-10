@@ -6,7 +6,7 @@
 	<groupId>com.pervasive</groupId>
 	<artifactId>server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>SmartTeamTracking</name>
 	<description>Server with Spring and Neo4j for SmartTeamTracking android app</description>
@@ -78,6 +78,8 @@
 			<url>http://m2.neo4j.org/</url>
 		</repository>
 	</repositories>
+	
+
 	
 	
 	 <profiles>
